@@ -7,8 +7,8 @@ This tool came out of a need to migrate large switch stacks while also re-wiring
 
 ## Usage
 
-1. Specifically formatted CSV of switches and their positions, logins..etc to be used to scan the systems.
-2. A Second specifically formatted CSV that identifies the patching information for the Patch Panel -> Switch Ports.
+1. Specifically formatted CSV (discoverSwitches.csv) of switches and their positions, logins..etc to be used to scan the systems.
+2. A Second specifically formatted CSV (switchMapData.csv) that identifies the patching information for the Patch Panel -> Switch Ports.
 
 Utilizing both, the tool with re-map all appropriate ports to their new configurations, and prodide a standardized switch configuration.
 
@@ -22,7 +22,7 @@ Many optimizations to be had and not the cleanest code but it got the job done. 
 
 ## To Do:
 
-Update the Readme with appropriate information.
+Update the Readme with appropriate information and instructions.
 
 ### Usage provided without warrenty.
 
